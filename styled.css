@@ -243,7 +243,7 @@
 
 .ConfirmButton {
     display: flex;
-    padding: 6px 12px;
+    cursor:  pinter;
     justify-content: center;
     align-items: center;
     gap: 8px;
