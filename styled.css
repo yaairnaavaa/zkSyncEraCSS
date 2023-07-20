@@ -243,7 +243,7 @@
 
 .ConfirmButton {
     display: flex;
-    cursor:  pinter;
+    cursor:  pointer;
     justify-content: center;
     align-items: center;
     gap: 8px;
@@ -253,8 +253,29 @@
     background: #8D8DFD;
 }
 
+.ConfirmButtonDisabled {
+    display: flex;
+    cursor:  pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
 .ConfirmText {
     color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ConfirmTextDisabled {
+    color: rgb(93 93 93);
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
