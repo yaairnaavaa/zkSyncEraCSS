@@ -37,7 +37,7 @@
   align-items: center;
 }
 
-.ProtocolImg = styled.img`
+.ProtocolImg = {
     width: 16px;
     height: 16px;
     border-radius: 16px;
@@ -101,7 +101,7 @@
     gap: 12px;
 }
 
-.TokenImg = styled.img`
+.TokenImg = {
     width: 32px;
     height: 32px;
 }
@@ -131,7 +131,7 @@
     line-height: normal;
 }
 
-.TokenNameSelect = styled.select`
+.TokenNameSelect = {
     color: #FFF;
     font-family: Inter;
     font-size: 16px;
@@ -159,7 +159,7 @@
     line-height: normal;
 }
 
-.TokenAmountInput = styled.input`
+.TokenAmountInput = {
     color: #FFF;
     text-align: right;
     background: none;
