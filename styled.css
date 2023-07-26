@@ -283,6 +283,6 @@
     line-height: normal;
 }
 
-select {
-  background: rgb(194, 222, 209) !important;
+option {
+  background: red !important;
 }
